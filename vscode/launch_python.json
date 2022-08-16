@@ -1,0 +1,27 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ROS: Launch",
+            "request": "launch",
+            "target": "/home/usrg/colcon_ws/install/uav_launch/share/uav_launch/launch/uav_perception.launch.py",
+            // "target": "/home/ros2_ws/install/yolov5_obb/share/yolov5_obb/launch/yolov5_obb_test.launch.py",
+            "launch": [
+                "rviz",
+                "gz",
+                "gzclient",
+                "gzserver"
+            ],
+            "type": "ros"
+        }
+    ],
+    "name": "Python: Current File",
+    "type": "python",
+    "request": "launch",
+    "program": "${file}",
+    "console": "integratedTerminal",
+    // "args": ["display_image:=true model_path:=/root/yolov5m.pt"]
+}

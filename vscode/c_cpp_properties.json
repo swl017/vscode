@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/galactic/include/**",
+                "/home/usrg/colcon_ws/src/mbzirc2023/uav/src/**",
+                "include/**",
+                "/usr/include/**",
+                "/usr/include/pcl-1.10/**",
+                "/home/usrg/mbzirc_ws/install/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
